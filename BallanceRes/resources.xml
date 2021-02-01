@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<res>
+		<name>Ballance(平衡).EXE</name>
+		<type>游戏本体</type>
+		<note>推荐，目前最接近官方版本的 Ballance</note>
+		<link title="蓝奏云下载">https://wwa.lanzous.com/iFgLCg8kw1c</link>
+	</res>
+	<res>
+		<name>BML-0.3.24.zip</name>
+		<type>游戏扩展</type>
+		<note>推荐，新版本的 Ballance Mod Loader</note>
+		<link title="蓝奏云下载">https://wwa.lanzous.com/iAngpg8kw3e</link>
+	</res>
+	<res>
+		<name>2020年全新汉化补丁.zip</name>
+		<type>游戏扩展</type>
+		<note>推荐，新版本的汉化补丁，文字看起来好看了很多</note>
+		<link title="蓝奏云下载">https://wwa.lanzous.com/i5dUkgkfjoj</link>
+	</res>
+	<res>
+		<name>Ballance无限生命补丁.rar</name>
+		<type>游戏扩展</type>
+		<note>新版“真”无限命，不是100条命</note>
+		<link title="蓝奏云下载">https://wwa.lanzous.com/icisCgkfjni</link>
+	</res>
+	<res>
+		<name>Ballance_Tools_V3.zip</name>
+		<type>游戏工具</type>
+		<note>Ballance工具箱，懒人ballance修改工具</note>
+		<link title="蓝奏云下载">https://wwa.lanzous.com/iLqUtgkfjmh</link>
+	</res>
+	<res>
+		<name>B.B.R.T.zip</name>
+		<type>游戏工具</type>
+		<note>懒人化Ballance球修改工具</note>
+		<link title="Github下载">https://github.com/AlwaysGuu/B.B.R.T.</link>
+	</res>
+</resources>

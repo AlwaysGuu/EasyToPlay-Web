@@ -1,0 +1,133 @@
+* {
+  font-family: Roboto, 'Open Sans', 'Segoe UI', '微软雅黑', sans-serif; 
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+html {
+  padding: 8px;
+  background: #f7f7f7;
+  background: linear-gradient(129deg, #eee 20%, #fff 50%, #ddd 80%); 
+  opacity: 0.95;
+  background-attachment: fixed;
+  height: 100%; 
+  overflow: auto;
+}
+
+body {
+  max-width: 800px;
+  margin: 8px auto;
+}
+
+h1 {
+  color: rgb(143, 143, 255); 
+  margin: 0.6em 0 0.4em;
+  font-family: 'Times New Roman', '华文中宋', '仿宋', serif;
+}
+
+#main {padding: 4px; margin: 0}
+
+#links {
+  background: rgb(190, 252, 252);
+  font-size: 1.12em;
+  padding: 0.8em;
+}
+
+#links li {margin: 0.4em 1.2em}
+
+#main a:link {color: #36c}
+#main a:hover {color: orange}
+#main a:active {color: red}
+#main a:visited {color: #019}
+
+.this-page {color: black; font-weight: bold}
+
+footer {
+  text-align: right;
+  font-size: 0.9em;
+  color: #777;
+}
+
+footer a {color: #777; text-decoration: dashed underline}
+
+footer ul {margin: 0.2em 0}
+
+footer li {
+  display: inline-block; 
+  margin: 0;
+}
+footer li:before {
+  content: " · ";
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+footer li:first-child:before {content: ""}
+
+hr.footer {
+  border: none; 
+  background: rgba(99, 99, 99, 0.5); 
+  height: 1.2px; 
+  margin: 1em 0 0;
+}
+
+table {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+  border-collapse: collapse; 
+  min-width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+th {background: #15b; color: white}
+table tr:nth-child(odd) {background: #eee}
+th, td {padding: 8px 4px; word-wrap: break-word}
+
+table tr:hover {background: #ddd}
+
+.buttonlink a, .buttonlink a:link, .buttonlink a:visited {
+  display: inline-block;
+  padding: 5px 10px;
+  color: white !important; 
+  background: #27c;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.buttonlink a:hover, .buttonlink a:active {background: #049}
+
+.buttonlink a:after {
+  content: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 24 24"><path d="M 19.980469 2.9902344 A 1.0001 1.0001 0 0 0 19.869141 3 L 15 3 A 1.0001 1.0001 0 1 0 15 5 L 17.585938 5 L 8.2929688 14.292969 A 1.0001 1.0001 0 1 0 9.7070312 15.707031 L 19 6.4140625 L 19 9 A 1.0001 1.0001 0 1 0 21 9 L 21 4.1269531 A 1.0001 1.0001 0 0 0 19.980469 2.9902344 z M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 13 A 1.0001 1.0001 0 1 0 19 13 L 19 19 L 5 19 L 5 5 L 11 5 A 1.0001 1.0001 0 1 0 11 3 L 5 3 z" fill="white"/></svg>');
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0.2em 0 0 0.2em;
+}
+
+.type, td:nth-child(2) {min-width: 5.6em}
+.dl, td:nth-child(4) {min-width: 9.2em}
+
+@media only screen and (min-width: 540px) {
+  body {text-align: center}
+  #links {padding: 1em; margin: auto}
+  #links li {
+    display: inline-block; 
+    font-size: 1.2em;
+    margin: 0;
+  }
+  #links li:before {
+    content: " · ";
+    font-weight: bold;
+    padding: 0 0.5em;
+  }
+  #links li:first-child:before {content: ""}
+  th, td {padding: 12px}
+}
+
+@media only screen and (max-width: 640px) {
+  .buttonlink a span {display: none}
+  .buttonlink a:after {margin: 0}
+  .buttonlink a, .buttonlink a:link, .buttonlink a:visited {padding: 4px 6px}
+  .type {min-width: 2.5em}
+  .dl {min-width: 0}
+  tr {padding: 0 4px}
+}
